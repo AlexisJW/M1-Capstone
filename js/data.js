@@ -88,7 +88,7 @@ function toggleMenu() {
   const navContainer = document.getElementById('nav-list-items');
   const btnsMenuBar = navContainer.getElementsByClassName('menu-bar');
 
-  for (let i = 0; i < btnsMenuBar.length; i++) {
+  for (let i = 0; i < btnsMenuBar.length; i += 1) {
     btnsMenuBar[i].addEventListener('click', () => {
       const current = document.getElementsByClassName('actived');
       current[0].className = current[0].className.replace(' actived', '');
