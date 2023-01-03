@@ -11,7 +11,7 @@ The goal of this project is to Understand how capstone projects work at Microver
 
 ## Live Demo
 
-[Live Project Link](https://AlexisJW.github.io/M1Capstone/)
+[Live Project Link](https://alexisjw.github.io/M1-Capstone/)
 
 ## Video Demonstartion
 
