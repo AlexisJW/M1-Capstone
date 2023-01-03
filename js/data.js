@@ -2,7 +2,7 @@ const projectDatas = [
   {
     featuredImage: './assets/images/featured-speakers/thats-me.jpg',
     name: 'Jean Walner Alexis',
-    qualification: 'CEO and CTO Alexis Conference',
+    qualification: 'CEO Alexis Conference',
     description: 'Developer of web, mobile and desktop applications. Programming tools and languages: Spring boot (java), Spring JDBC, Spring TX, CodeIgniter (php), NetBeans (java), Android Studio (java), sql, MySql, Oracle, H2 Database, Firebase, PostgreSQL.',
   },
   {
