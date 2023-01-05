@@ -72,7 +72,7 @@ function toggle() {
       speaker[i].classList.toggle('hide-show-speaker');
     }
 
-    if (btn.innerText.trim() === "MORE") {
+    if (btn.innerText.trim() === 'MORE') {
       btn.innerHTML = 'LESS <span> <i class="fa fa-angle-up" aria-hidden="true"></i></span>';
     } else {
       btn.innerHTML = 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
