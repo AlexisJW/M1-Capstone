@@ -9,7 +9,7 @@ const projectDatas = [
     featuredImage: './assets/images/featured-speakers/satya-nadella.jpg',
     name: 'Satya Nadella',
     qualification: 'CEO of Microsoft',
-    description: 'At Microsoft, Nadella has led major projects that included the companys move to cloud computing and the development of one of the largest cloud infrastructures in the world.',
+    description: 'At Microsoft, Nadella has led major projects that included the companys move to cloud computing.',
   },
   {
     featuredImage: './assets/images/featured-speakers/arvind-krishna.jpg',
@@ -41,8 +41,10 @@ document.querySelector('.keynote-speakers').innerHTML = projectDatas
   .map(
     (data) => `
 <div class="speaker">
+
 <div class="speaker-bg"></div>
 <img src=${data.featuredImage} alt="speaker" />
+
 <div class="speaker-description">
 <h3>${data.name}</h3>
 <p class="speaker-qualification">${data.qualification}</p>
