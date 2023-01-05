@@ -168,7 +168,10 @@ If you like this project, let me know in my email: jeanwalneralexis@yahoo.com, p
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank GOD and Microverse Team
+- Design inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Microverse 
+- Coding Partners
+- Code Reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

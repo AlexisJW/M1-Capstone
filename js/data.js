@@ -3,7 +3,7 @@ const projectDatas = [
     featuredImage: './assets/images/featured-speakers/thats-me.jpg',
     name: 'Jean Walner Alexis',
     qualification: 'CEO Alexis Conference',
-    description: 'Developer of web, mobile and desktop applications. Programming tools and languages: Spring boot (java), Spring JDBC, Spring TX, CodeIgniter (php), NetBeans (java), Android Studio (java), sql, MySql, Oracle, H2 Database, Firebase, PostgreSQL.',
+    description: 'Developer of web, mobile and desktop applications. Programming tools and languages: Spring boot (java), Codeigniter.',
   },
   {
     featuredImage: './assets/images/featured-speakers/satya-nadella.jpg',
@@ -66,16 +66,14 @@ projects();
 function toggle() {
   document.querySelector('#btn').addEventListener('click', () => {
     const speaker = Array.from(document.querySelectorAll('.speaker'));
-    const btn = document.querySelector('.btn');
+    const btn = document.querySelector('#btn');
 
     for (let i = 2; i < speaker.length; i += 1) {
       speaker[i].classList.toggle('hide-show-speaker');
     }
 
-    if (btn.innerHTML === 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>') {
+    if (btn.innerText.trim() === "MORE") {
       btn.innerHTML = 'LESS <span> <i class="fa fa-angle-up" aria-hidden="true"></i></span>';
-    } else if (btn.innerHTML === 'LESS <span> <i class="fa fa-angle-up" aria-hidden="true"></i></span>') {
-      btn.innerHTML = 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
     } else {
       btn.innerHTML = 'MORE <span> <i class="fa fa-angle-down" aria-hidden="true"></i></span>';
     }
